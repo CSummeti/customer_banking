@@ -16,5 +16,5 @@ class Account:
         """Sets the interest gained for the the account"""
         self.interest = interest
 
-def calculate_interest(self):
+    def calculate_interest(self):
         return self.balance * (self.interest_rate / 100)
